@@ -29,79 +29,107 @@ lastVerified: 2025-08-16
   </div>
 </div>
 
+{/* stepcraft-wiki:skill-recipes:start */}
 ## Armor Available by Level
 
-| Level | Resource                                              | XP   | Steps | XP / Step | Required Materials                                      |
-|:-----:|-------------------------------------------------------|:----:|:-----:|:---------:|---------------------------------------------------------|
-| 0     | [Copper Helm](/docs/items/individual/copper_helm)     | 200  | 500   | 0.4       | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
-| 1     | [Copper Chest](/docs/items/individual/copper_chest)   | 200  | 500   | 0.4       | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
-| 2     | [Copper Legs](/docs/items/individual/copper_legs)     | 220  | 550   | 0.4       | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
-| 4     | [Copper Boots](/docs/items/individual/copper_boots)   | 240  | 600   | 0.4       | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
-| 6     | [Copper Gloves](/docs/items/individual/copper_gloves) | 260  | 650   | 0.4       | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
-| 15    | [Iron Helm](/docs/items/individual/iron_helm)         | 400  | 750   | 0.53      | 10x [Iron Bar](/docs/resources/individual/iron_bar)     |
-| 16    | [Iron Chest](/docs/items/individual/iron_chest)       | 440  | 825   | 0.53      | 10x [Iron Bar](/docs/resources/individual/iron_bar)     |
-| 17    | [Iron Legs](/docs/items/individual/iron_legs)         | 480  | 900   | 0.53      | 10x [Iron Bar](/docs/resources/individual/iron_bar)     |
-| 19    | [Iron Boots](/docs/items/individual/iron_boots)       | 520  | 975   | 0.53      | 10x [Iron Bar](/docs/resources/individual/iron_bar)     |
-| 23    | [Iron Gloves](/docs/items/individual/iron_gloves)     | 560  | 1050  | 0.53      | 10x [Iron Bar](/docs/resources/individual/iron_bar)     |
-| 32    | [Silver Helm](/docs/items/individual/silver_helm)     | 800  | 1000  | 0.8       | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
-| 34    | [Silver Chest](/docs/items/individual/silver_chest)   | 880  | 1100  | 0.8       | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
-| 36    | [Silver Legs](/docs/items/individual/silver_legs)     | 960  | 1200  | 0.8       | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
-| 38    | [Silver Boots](/docs/items/individual/silver_boots)   | 1040 | 1300  | 0.8       | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
-| 40    | [Silver Gloves](/docs/items/individual/silver_gloves) | 1120 | 1400  | 0.8       | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
-| 45    | [Gold Helm](/docs/items/individual/gold_helm)         | 1600 | 1250  | 1.28      | 10x [Gold Bar](/docs/resources/individual/gold_bar)     |
-| 47    | [Gold Chest](/docs/items/individual/gold_chest)       | 1760 | 1375  | 1.28      | 10x [Gold Bar](/docs/resources/individual/gold_bar)     |
-| 49    | [Gold Legs](/docs/items/individual/gold_legs)         | 1920 | 1500  | 1.28      | 10x [Gold Bar](/docs/resources/individual/gold_bar)     |
-| 51    | [Gold Boots](/docs/items/individual/gold_boots)       | 2080 | 1625  | 1.28      | 10x [Gold Bar](/docs/resources/individual/gold_bar)     |
-| 53    | [Gold Gloves](/docs/items/individual/gold_gloves)     | 2240 | 1750  | 1.28      | 10x [Gold Bar](/docs/resources/individual/gold_bar)     |
-| 60    | [Blue Helm](/docs/items/individual/blue_helm)         | 3200 | 1500  | 2.13      | 10x [Blue Bar](/docs/resources/individual/blue_bar)     |
-| 62    | [Blue Chest](/docs/items/individual/blue_chest)       | 3520 | 1650  | 2.13      | 10x [Blue Bar](/docs/resources/individual/blue_bar)     |
-| 64    | [Blue Legs](/docs/items/individual/blue_legs)         | 3840 | 1800  | 2.13      | 10x [Blue Bar](/docs/resources/individual/blue_bar)     |
-| 66    | [Blue Boots](/docs/items/individual/blue_boots)       | 4160 | 1950  | 2.13      | 10x [Blue Bar](/docs/resources/individual/blue_bar)     |
-| 68    | [Blue Gloves](/docs/items/individual/blue_gloves)     | 4480 | 2100  | 2.13      | 10x [Blue Bar](/docs/resources/individual/blue_bar)     |
-| 75    | [Red Helm](/docs/items/individual/red_helm)           | 6400 | 1750  | 3.66      | 10x [Red Bar](/docs/resources/individual/red_bar)       |
-| 77    | [Red Chest](/docs/items/individual/red_chest)         | 7040 | 1925  | 3.66      | 10x [Red Bar](/docs/resources/individual/red_bar)       |
-| 79    | [Red Legs](/docs/items/individual/red_legs)           | 7680 | 2100  | 3.66      | 10x [Red Bar](/docs/resources/individual/red_bar)       |
-| 81    | [Red Boots](/docs/items/individual/red_boots)         | 8320 | 2275  | 3.66      | 10x [Red Bar](/docs/resources/individual/red_bar)       |
-| 83    | [Red Gloves](/docs/items/individual/red_gloves)       | 8960 | 2450  | 3.66      | 10x [Red Bar](/docs/resources/individual/red_bar)       |
+| Level | Output | XP | Steps | XP / Step | Requirements |
+|:-----:|:-------|:-----:|:-----:|:-----:|:-------|
+| 0 | [Copper Helm](/docs/items/individual/copper_helm) | 200 | 500 | 0.4 | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
+| 1 | [Copper Chest](/docs/items/individual/copper_chest) | 200 | 500 | 0.4 | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
+| 2 | [Copper Legs](/docs/items/individual/copper_legs) | 220 | 550 | 0.4 | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
+| 4 | [Copper Boots](/docs/items/individual/copper_boots) | 240 | 600 | 0.4 | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
+| 6 | [Copper Gloves](/docs/items/individual/copper_gloves) | 260 | 650 | 0.4 | 10x [Copper Bar](/docs/resources/individual/copper_bar) |
+| 15 | [Iron Helm](/docs/items/individual/iron_helm) | 400 | 750 | 0.53 | 10x [Iron Bar](/docs/resources/individual/iron_bar) |
+| 16 | [Iron Chest](/docs/items/individual/iron_chest) | 440 | 825 | 0.53 | 10x [Iron Bar](/docs/resources/individual/iron_bar) |
+| 17 | [Iron Legs](/docs/items/individual/iron_legs) | 480 | 900 | 0.53 | 10x [Iron Bar](/docs/resources/individual/iron_bar) |
+| 19 | [Iron Boots](/docs/items/individual/iron_boots) | 520 | 975 | 0.53 | 10x [Iron Bar](/docs/resources/individual/iron_bar) |
+| 23 | [Iron Gloves](/docs/items/individual/iron_gloves) | 560 | 1050 | 0.53 | 10x [Iron Bar](/docs/resources/individual/iron_bar) |
+| 30 | ["New Year's" Glasses](/docs/items/individual/ny_glasses) | 32000 | 10000 | 3.2 | 2x [Iridescent Glass](/docs/items/individual/iridescent_glass); Unlock: Quest: Happy New Year |
+| 32 | [Silver Helm](/docs/items/individual/silver_helm) | 800 | 1000 | 0.8 | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
+| 34 | [Silver Chest](/docs/items/individual/silver_chest) | 880 | 1100 | 0.8 | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
+| 36 | [Silver Legs](/docs/items/individual/silver_legs) | 960 | 1200 | 0.8 | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
+| 38 | [Silver Boots](/docs/items/individual/silver_boots) | 1040 | 1300 | 0.8 | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
+| 40 | [Silver Gloves](/docs/items/individual/silver_gloves) | 1120 | 1400 | 0.8 | 10x [Silver Bar](/docs/resources/individual/silver_bar) |
+| 45 | [Gold Helm](/docs/items/individual/gold_helm) | 1600 | 1250 | 1.28 | 10x [Gold Bar](/docs/resources/individual/gold_bar) |
+| 47 | [Gold Chest](/docs/items/individual/gold_chest) | 1760 | 1375 | 1.28 | 10x [Gold Bar](/docs/resources/individual/gold_bar) |
+| 49 | [Gold Legs](/docs/items/individual/gold_legs) | 1920 | 1500 | 1.28 | 10x [Gold Bar](/docs/resources/individual/gold_bar) |
+| 51 | [Gold Boots](/docs/items/individual/gold_boots) | 2080 | 1625 | 1.28 | 10x [Gold Bar](/docs/resources/individual/gold_bar) |
+| 53 | [Gold Gloves](/docs/items/individual/gold_gloves) | 2240 | 1750 | 1.28 | 10x [Gold Bar](/docs/resources/individual/gold_bar) |
+| 60 | [Blue Helm](/docs/items/individual/blue_helm) | 3200 | 1500 | 2.13 | 10x [Blue Bar](/docs/resources/individual/blue_bar) |
+| 62 | [Blue Chest](/docs/items/individual/blue_chest) | 3520 | 1650 | 2.13 | 10x [Blue Bar](/docs/resources/individual/blue_bar) |
+| 64 | [Blue Legs](/docs/items/individual/blue_legs) | 3840 | 1800 | 2.13 | 10x [Blue Bar](/docs/resources/individual/blue_bar) |
+| 66 | [Blue Boots](/docs/items/individual/blue_boots) | 4160 | 1950 | 2.13 | 10x [Blue Bar](/docs/resources/individual/blue_bar) |
+| 68 | [Blue Gloves](/docs/items/individual/blue_gloves) | 4480 | 2100 | 2.13 | 10x [Blue Bar](/docs/resources/individual/blue_bar) |
+| 75 | [Red Helm](/docs/items/individual/red_helm) | 6400 | 1750 | 3.66 | 10x [Red Bar](/docs/resources/individual/red_bar) |
+| 77 | [Red Chest](/docs/items/individual/red_chest) | 7040 | 1925 | 3.66 | 10x [Red Bar](/docs/resources/individual/red_bar) |
+| 79 | [Red Legs](/docs/items/individual/red_legs) | 7680 | 2100 | 3.66 | 10x [Red Bar](/docs/resources/individual/red_bar) |
+| 81 | [Red Boots](/docs/items/individual/red_boots) | 8320 | 2275 | 3.66 | 10x [Red Bar](/docs/resources/individual/red_bar) |
+| 83 | [Red Gloves](/docs/items/individual/red_gloves) | 8960 | 2450 | 3.66 | 10x [Red Bar](/docs/resources/individual/red_bar) |
 
 ## Tools Available by Level
 
-| Level | Resource                                                | XP    | Steps | XP / Step | Required Materials                                                                                                                   |
-|:-----:|---------------------------------------------------------|:-----:|:-----:|:---------:|--------------------------------------------------------------------------------------------------------------------------------------|
-| 8     | [Copper Pickaxe](/docs/items/individual/copper_pickaxe) | 280   | 700   | 0.4       | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle)         |
-| 9     | [Copper Axe](/docs/items/individual/copper_axe)         | 290   | 725   | 0.4       | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle)         |
-| 10    | [Copper Sickle](/docs/items/individual/copper_sickle)   | 300   | 750   | 0.4       | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle)         |
-| 11    | [Copper Rod](/docs/items/individual/copper_rod)         | 310   | 775   | 0.4       | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle)         |
-| 25    | [Iron Pickaxe](/docs/items/individual/iron_pickaxe)     | 600   | 1125  | 0.53      | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle)                 |
-| 26    | [Iron Axe](/docs/items/individual/iron_axe)             | 620   | 1163  | 0.53      | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle)                 |
-| 27    | [Iron Sickle](/docs/items/individual/iron_sickle)       | 640   | 1200  | 0.53      | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle)                 |
-| 28    | [Iron Rod](/docs/items/individual/iron_rod)             | 660   | 1238  | 0.53      | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle)                 |
-| 41    | [Silver Pickaxe](/docs/items/individual/silver_pickaxe) | 1200  | 1500  | 0.8       | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle)           |
-| 42    | [Silver Axe](/docs/items/individual/silver_axe)         | 1240  | 1550  | 0.8       | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle)           |
-| 43    | [Silver Sickle](/docs/items/individual/silver_sickle)   | 1280  | 1600  | 0.8       | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle)           |
-| 44    | [Silver Rod](/docs/items/individual/silver_rod)         | 1320  | 1650  | 0.8       | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle)           |
-| 54    | [Gold Pickaxe](/docs/items/individual/gold_pickaxe)     | 2320  | 1813  | 1.28      | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle)         |
-| 55    | [Gold Axe](/docs/items/individual/gold_axe)             | 2400  | 1875  | 1.28      | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle)         |
-| 56    | [Gold Sickle](/docs/items/individual/gold_sickle)       | 2480  | 1938  | 1.28      | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle)         |
-| 57    | [Gold Rod](/docs/items/individual/gold_rod)             | 2560  | 2000  | 1.28      | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle)         |
-| 69    | [Blue Pickaxe](/docs/items/individual/blue_pickaxe)     | 4640  | 2175  | 2.13      | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle)   |
-| 70    | [Blue Axe](/docs/items/individual/blue_axe)             | 4800  | 2250  | 2.13      | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle)   |
-| 71    | [Blue Sickle](/docs/items/individual/blue_sickle)       | 4960  | 2325  | 2.13      | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle)   |
-| 72    | [Blue Rod](/docs/items/individual/blue_rod)             | 5120  | 2400  | 2.13      | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle)   |
-| 84    | [Red Pickaxe](/docs/items/individual/red_pickaxe)       | 9280  | 2538  | 3.66      | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
-| 85    | [Red Axe](/docs/items/individual/red_axe)               | 9600  | 2625  | 3.66      | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
-| 86    | [Red Sickle](/docs/items/individual/red_sickle)         | 9920  | 2713  | 3.66      | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
-| 87    | [Red Rod](/docs/items/individual/red_rod)               | 10240 | 2800  | 3.66      | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
+| Level | Output | XP | Steps | XP / Step | Requirements |
+|:-----:|:-------|:-----:|:-----:|:-----:|:-------|
+| 8 | [Copper Pickaxe](/docs/items/individual/copper_pickaxe) | 280 | 700 | 0.4 | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle) |
+| 9 | [Copper Axe](/docs/items/individual/copper_axe) | 290 | 725 | 0.4 | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle) |
+| 10 | [Copper Sickle](/docs/items/individual/copper_sickle) | 300 | 750 | 0.4 | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle) |
+| 11 | [Copper Rod](/docs/items/individual/copper_rod) | 310 | 775 | 0.4 | 1x [Copper Toolhead](/docs/resources/individual/copper_toolhead), 1x [Birch Handle](/docs/resources/individual/birch_handle) |
+| 25 | [Iron Pickaxe](/docs/items/individual/iron_pickaxe) | 600 | 1125 | 0.53 | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle) |
+| 26 | [Iron Axe](/docs/items/individual/iron_axe) | 620 | 1162 | 0.53 | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle) |
+| 27 | [Iron Sickle](/docs/items/individual/iron_sickle) | 640 | 1200 | 0.53 | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle) |
+| 28 | [Iron Rod](/docs/items/individual/iron_rod) | 660 | 1237 | 0.53 | 1x [Iron Toolhead](/docs/resources/individual/iron_toolhead), 1x [Oak Handle](/docs/resources/individual/oak_handle) |
+| 41 | [Silver Pickaxe](/docs/items/individual/silver_pickaxe) | 1200 | 1500 | 0.8 | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle) |
+| 42 | [Silver Axe](/docs/items/individual/silver_axe) | 1240 | 1550 | 0.8 | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle) |
+| 43 | [Silver Sickle](/docs/items/individual/silver_sickle) | 1280 | 1600 | 0.8 | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle) |
+| 44 | [Silver Rod](/docs/items/individual/silver_rod) | 1320 | 1650 | 0.8 | 1x [Silver Toolhead](/docs/resources/individual/silver_toolhead), 1x [Pine Handle](/docs/resources/individual/pine_handle) |
+| 54 | [Gold Pickaxe](/docs/items/individual/gold_pickaxe) | 2320 | 1812 | 1.28 | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle) |
+| 55 | [Gold Axe](/docs/items/individual/gold_axe) | 2400 | 1875 | 1.28 | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle) |
+| 56 | [Gold Sickle](/docs/items/individual/gold_sickle) | 2480 | 1937 | 1.28 | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle) |
+| 57 | [Gold Rod](/docs/items/individual/gold_rod) | 2560 | 2000 | 1.28 | 1x [Gold Toolhead](/docs/resources/individual/gold_toolhead), 1x [Redwood Handle](/docs/resources/individual/redwood_handle) |
+| 69 | [Blue Pickaxe](/docs/items/individual/blue_pickaxe) | 4640 | 2175 | 2.13 | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle) |
+| 70 | [Blue Axe](/docs/items/individual/blue_axe) | 4800 | 2250 | 2.13 | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle) |
+| 71 | [Blue Sickle](/docs/items/individual/blue_sickle) | 4960 | 2325 | 2.13 | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle) |
+| 72 | [Blue Rod](/docs/items/individual/blue_rod) | 5120 | 2400 | 2.13 | 1x [Blue Toolhead](/docs/resources/individual/blue_toolhead), 1x [Silverleaf Handle](/docs/resources/individual/silverleaf_handle) |
+| 84 | [Red Pickaxe](/docs/items/individual/red_pickaxe) | 9280 | 2537 | 3.66 | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
+| 85 | [Red Axe](/docs/items/individual/red_axe) | 9600 | 2625 | 3.66 | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
+| 86 | [Red Sickle](/docs/items/individual/red_sickle) | 9920 | 2712 | 3.66 | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
+| 87 | [Red Rod](/docs/items/individual/red_rod) | 10240 | 2800 | 3.66 | 1x [Red Toolhead](/docs/resources/individual/red_toolhead), 1x [Eldritchwood Handle](/docs/resources/individual/eldritchwood_handle) |
+
+## Other Recipes Available by Level
+
+| Level | Output | XP | Steps | XP / Step | Requirements |
+|:-----:|:-------|:-----:|:-----:|:-----:|:-------|
+| 0 | [Paper](/docs/resources/individual/paper) | 10 | 50 | 0.2 | 3x [Sticks](/docs/resources/individual/sticks) or [Birch Log](/docs/resources/individual/birch_log) or [Oak Log](/docs/resources/individual/oak_log) or [Maple Log](/docs/resources/individual/maple_log) or [Pine Log](/docs/resources/individual/pine_log) or [Redwood Log](/docs/resources/individual/redwood_log) or [Silverleaf Log](/docs/resources/individual/silverleaf_log) or [Eldritchwood Log](/docs/resources/individual/eldritchwood_log) |
+| 0 | [Leather](/docs/resources/individual/leather) | 30 | 50 | 0.6 | 3x [Mouse Hide](/docs/resources/individual/mouse_hide) or [Albino Mouse Hide](/docs/resources/individual/albino_mouse_hide) or [Squirrel Hide](/docs/resources/individual/squirrel_hide) or [Grey Squirrel Hide](/docs/resources/individual/grey_squirrel_hide) or [Rabbit Hide](/docs/resources/individual/rabbit_hide) or [Hog Hide](/docs/resources/individual/hog_hide) or [Black Boar Hide](/docs/resources/individual/black_boar_hide) or [Fox Hide](/docs/resources/individual/fox_hide) or [Silver Fox Hide](/docs/resources/individual/silver_fox_hide) or [Deer Hide](/docs/resources/individual/deer_hide) or [Moose Hide](/docs/resources/individual/moose_hide) or [Wolf Hide](/docs/resources/individual/wolf_hide) or [Bear Hide](/docs/resources/individual/bear_hide) or [Black Bear Hide](/docs/resources/individual/black_bear_hide) |
+| 0 | [Dinglehopper](/docs/items/individual/dinglehopper) | 40 | 100 | 0.4 | 2x [Nickel Chunk](/docs/resources/individual/nickel_chunk) |
+| 0 | [Snarfblatt](/docs/items/individual/snarfblatt) | 20 | 50 | 0.4 | 5x [Sticks](/docs/resources/individual/sticks) |
+| 0 | [Thingamabob](/docs/items/individual/thingamabob) | 20 | 50 | 0.4 | 2x [Sticks](/docs/resources/individual/sticks), 1x [Nickel Chunk](/docs/resources/individual/nickel_chunk) |
+| 2 | [Vase](/docs/resources/individual/vase) | 20 | 100 | 0.2 | 5x [Clay](/docs/resources/individual/clay) |
+| 15 | [Book](/docs/resources/individual/book) | 60 | 225 | 0.27 | 5x [Paper](/docs/resources/individual/paper), 1x [Leather](/docs/resources/individual/leather) |
+| 15 | [Soft Pelt](/docs/resources/individual/soft_pelt) | 60 | 75 | 0.8 | 3x [Mouse Hide](/docs/resources/individual/mouse_hide) or [Albino Mouse Hide](/docs/resources/individual/albino_mouse_hide) or [Squirrel Hide](/docs/resources/individual/squirrel_hide) or [Grey Squirrel Hide](/docs/resources/individual/grey_squirrel_hide) or [Rabbit Hide](/docs/resources/individual/rabbit_hide) or [Hog Hide](/docs/resources/individual/hog_hide) or [Black Boar Hide](/docs/resources/individual/black_boar_hide) or [Fox Hide](/docs/resources/individual/fox_hide) or [Silver Fox Hide](/docs/resources/individual/silver_fox_hide) or [Deer Hide](/docs/resources/individual/deer_hide) or [Moose Hide](/docs/resources/individual/moose_hide) or [Wolf Hide](/docs/resources/individual/wolf_hide) or [Bear Hide](/docs/resources/individual/bear_hide) or [Black Bear Hide](/docs/resources/individual/black_bear_hide) |
+| 15 | [Teddy](/docs/items/individual/teddy) | 280 | 500 | 0.56 | 5x [Cotton](/docs/resources/individual/cotton), 2x [Squirrel Hide](/docs/resources/individual/squirrel_hide) |
+| 15 | [Wrapping Paper](/docs/items/individual/wrapping_paper) | 80 | 200 | 0.4 | 1x [Roll of Paper](/docs/items/individual/roll_of_paper), 1x [Cherry](/docs/resources/individual/cherry) or [Raspberry](/docs/resources/individual/raspberry) or [Strawberry](/docs/resources/individual/strawberry) |
+| 30 | [Charcoal](/docs/resources/individual/charcoal) (55% chance), [Copper Ore](/docs/resources/individual/copper_ore) (15% chance), [Iron Ore](/docs/resources/individual/iron_ore) (10% chance), [Purple Ore](/docs/resources/individual/purple_ore) (8% chance), [Green Ore](/docs/resources/individual/green_ore) (5% chance), [Drum Relic](/docs/items/individual/drum_relic) (3% chance), [Horn Relic](/docs/items/individual/horn_relic) (2% chance), [Vase Relic](/docs/items/individual/vase_relic) (1% chance), [Raw Iridescent Gem](/docs/resources/individual/iridescent_gem_raw) (1% chance) | 80 | 200 | 0.4 | 1x [Frozen Geode](/docs/resources/individual/frozen_geode) |
+| 30 | [Stone](/docs/resources/individual/stone) (30% chance), [Charcoal](/docs/resources/individual/charcoal) (30% chance), [Copper Ore](/docs/resources/individual/copper_ore) (10% chance), [Iron Ore](/docs/resources/individual/iron_ore) (10% chance), [Garnet](/docs/resources/individual/garnet) (6% chance), [Jade](/docs/resources/individual/jade) (6% chance), [Rose Quartz](/docs/resources/individual/rose_quartz) (5% chance), [Garden Scissors Relic](/docs/items/individual/garden_scissors_relic) (1% chance), [Ceremonial Knife Relic](/docs/items/individual/ceremonial_knife_relic) (2% chance) | 80 | 200 | 0.4 | 1x [Earth Geode](/docs/resources/individual/earth_geode) |
+| 30 | [Rocking Horse](/docs/items/individual/rocking_horse) | 200 | 300 | 0.67 | 2x [Nail](/docs/resources/individual/nail), 3x [Oak Plank](/docs/resources/individual/oak_plank) |
+| 30 | [Gift](/docs/items/individual/gift) | 400 | 625 | 0.64 | 1x [Rocking Horse](/docs/items/individual/rocking_horse) or [Teddy](/docs/items/individual/teddy), 1x [Wrapping Paper](/docs/items/individual/wrapping_paper) |
+| 30 | [Saddle](/docs/items/individual/saddle) | 1200 | 4000 | 0.3 | 15x [Leather](/docs/resources/individual/leather), 5x [Iron Bar](/docs/resources/individual/iron_bar); Unlock: [Saddle Recipe](/docs/items/individual/saddle_recipe) |
+| 33 | [Stone](/docs/resources/individual/stone) (5% chance), [Charcoal](/docs/resources/individual/charcoal) (10% chance), [Copper Ore](/docs/resources/individual/copper_ore) (10% chance), [Iron Ore](/docs/resources/individual/iron_ore) (20% chance), [Silver Ore](/docs/resources/individual/silver_ore) (20% chance), [Gold Ore](/docs/resources/individual/gold_ore) (15% chance), [Raw Goldleaf Peridot](/docs/resources/individual/goldleaf_peridot_raw) (5% chance), [Jade](/docs/resources/individual/jade) (5% chance), [Raw Tidecrest Sapphire](/docs/resources/individual/tidecrest_sapphire_raw) (5% chance), [Diamond](/docs/resources/individual/diamond) (5% chance) | 80 | 200 | 0.4 | 1x [Green Geode](/docs/resources/individual/green_geode) |
+| 36 | [Stone](/docs/resources/individual/stone) (5% chance), [Charcoal](/docs/resources/individual/charcoal) (10% chance), [Copper Ore](/docs/resources/individual/copper_ore) (10% chance), [Iron Ore](/docs/resources/individual/iron_ore) (20% chance), [Silver Ore](/docs/resources/individual/silver_ore) (20% chance), [Gold Ore](/docs/resources/individual/gold_ore) (15% chance), [Raw Voidstone](/docs/resources/individual/voidstone_raw) (5% chance), [Raw Moonwell Opal](/docs/resources/individual/moonwell_opal_raw) (5% chance), [Raw Tidecrest Sapphire](/docs/resources/individual/tidecrest_sapphire_raw) (5% chance), [Diamond](/docs/resources/individual/diamond) (5% chance) | 80 | 200 | 0.4 | 1x [Purple Geode](/docs/resources/individual/purple_geode) |
+| 37 | [Bag of Gifts](/docs/items/individual/santa_bag) | 1600 | 2500 | 0.64 | 20x [Gift](/docs/items/individual/gift) |
+| 39 | [Stone](/docs/resources/individual/stone) (5% chance), [Charcoal](/docs/resources/individual/charcoal) (10% chance), [Copper Ore](/docs/resources/individual/copper_ore) (10% chance), [Iron Ore](/docs/resources/individual/iron_ore) (20% chance), [Silver Ore](/docs/resources/individual/silver_ore) (20% chance), [Gold Ore](/docs/resources/individual/gold_ore) (15% chance), [Raw Embercore Ruby](/docs/resources/individual/embercore_ruby_raw) (5% chance), [Garnet](/docs/resources/individual/garnet) (5% chance), [Rose Quartz](/docs/resources/individual/rose_quartz) (5% chance), [Diamond](/docs/resources/individual/diamond) (5% chance) | 80 | 200 | 0.4 | 1x [Red Geode](/docs/resources/individual/red_geode) |
+| 45 | [Stone](/docs/resources/individual/stone) (5% chance), [Charcoal](/docs/resources/individual/charcoal) (10% chance), [Copper Ore](/docs/resources/individual/copper_ore) (10% chance), [Iron Ore](/docs/resources/individual/iron_ore) (20% chance), [Silver Ore](/docs/resources/individual/silver_ore) (20% chance), [Gold Ore](/docs/resources/individual/gold_ore) (15% chance), [Raw Goldleaf Peridot](/docs/resources/individual/goldleaf_peridot_raw) (5% chance), [Raw Embercore Ruby](/docs/resources/individual/embercore_ruby_raw) (5% chance), [Garnet](/docs/resources/individual/garnet) (5% chance), [Diamond](/docs/resources/individual/diamond) (5% chance) | 160 | 250 | 0.64 | 1x [Amber Geode](/docs/resources/individual/amber_geode) |
+| 45 | [Pet Collar](/docs/items/individual/pet_collar) | 1200 | 2500 | 0.48 | 5x [Leather](/docs/resources/individual/leather), 5x [Gold Bar](/docs/resources/individual/gold_bar); Unlock: [Pet Collar Recipe](/docs/items/individual/pet_collar_recipe) |
 
 ## Training Areas
 
-You can train Crafting at the following locations:
-
-| Location                                                      | Available Recipes              |
-| ------------------------------------------------------------- | ------------------------------ |
-| **[Willowbend Plaza](/docs/map/individual/willowbend_plaza)** | All crafting recipes available |
-| **[Hollow Crown](/docs/map/individual/hollow_crown)**         | All crafting recipes available |
-| **[Sunforge Sands](/docs/map/individual/sunforge_sands)**     | All crafting recipes available |
+| Location | Available Recipes |
+|:---------|:----------|
+| Deepholm Lower (Greymantle) | All 76 recipes |
+| [Hollow Crown](/docs/map/individual/hollow_crown) (Willows Reach) | All 76 recipes |
+| [Sunforge Sands](/docs/map/individual/sunforge_sands) (Willows Reach) | All 76 recipes |
+| [Willowbend Plaza](/docs/map/individual/willowbend_plaza) (Willows Reach) | All 76 recipes |
+{/* stepcraft-wiki:skill-recipes:end */}
 
 ## Related Skills
 
